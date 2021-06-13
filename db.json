@@ -1,15 +1,49 @@
 {
-"details" : [
-    {"FacilityId": 1, "FacilityName": "Facility 001", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "10K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Arun", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 2, "FacilityName": "Fac 002", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "114K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Vinay", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 3, "FacilityName": "Fac003", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "91K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Sakshi", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 4, "FacilityName": "Facility004", "FacilityStatus": "Close", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "3K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Shruthi", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 5, "FacilityName": "Facility 005", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "21K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Deepa", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 6, "FacilityName": "Facility 006", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "10K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Arun", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 7, "FacilityName": "Fac 007", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "114K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Vinay", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 8, "FacilityName": "Fac008", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "91K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Sakshi", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 9, "FacilityName": "Facility 009", "FacilityStatus": "Close", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "3K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Shruthi", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" },
-    {"FacilityId": 10, "FacilityName": "Fac 010", "FacilityStatus": "Open", "FacilityAlertIndicator": "A", "Commitment": "NA", "BorrowingLimit": "21K USD","Availability":"Available", "RMName" : "ABC","PortfolioManager":"Deepa", "AliasName": "XYA", "RelationshipName": "NA", "RelationshipId":"NA", "AnalystName" : "GGF", "CollateralSpecialist": "NA","MaturityDate" :"10/02/2019","NoteIssuanceDate": "02/02/2020","PaymentStatus":"NA","LastUpdatedDate":"08/06/2021" }
+"facilities" : [
+    {"facilityId": 1, "facilityName": "Facility 001", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "10K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Arun", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 2, "facilityName": "Fac 002", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "114K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Vinay", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 3, "facilityName": "Fac003", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "91K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Sakshi", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 4, "facilityName": "Facility004", "facilityStatus": "Close", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "3K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Shruthi", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 5, "facilityName": "Facility 005", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "21K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Deepa", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 6, "facilityName": "Facility 006", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "10K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Arun", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 7, "facilityName": "Fac 007", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "114K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Vinay", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 8, "facilityName": "Fac008", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "91K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Sakshi", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 9, "facilityName": "Facility 009", "facilityStatus": "Close", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "3K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Shruthi", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" },
+    {"facilityId": 10, "facilityName": "Fac 010", "facilityStatus": "Open", "facilityAlertIndicator": "A", "commitment": "NA", "borrowingLimit": "21K USD","availability":"Available", "rmName" : "ABC","portfolioManager":"Deepa", "aliasName": "XYA", "relationshipName": "NA", "relationshipId":"NA", "analystName" : "GGF", "collateralSpecialist": "NA","maturityDate" :"10/02/2019","noteIssuanceDate": "02/02/2020","paymentStatus":"NA","lastUpdatedDate":"08/06/2021" }
+  ],
+  "users": [
+  {
+    "id": "1",
+    "firstName": "Animesh",
+    "lastName": "Roy",
+    "email": "ani@gmail.com",
+    "age": 21,
+    "companyId": "1"
+  },
+  {
+    "id": "2",
+    "firstName": "Rahul",
+    "lastName": "Sharma",
+    "email": "rahul@gmail.com",
+    "age": 20,
+    "companyId": "1"
+  },
+  {
+    "id": "3",
+    "firstName": "Mark",
+    "lastName": "Tyson",
+    "email": "lipon21@gmail.com",
+    "age": 22,
+    "companyId": "1"
+  },
+  {
+    "id": "4",
+    "firstName": "Saurav",
+    "lastName": "Kumar",
+    "email": "saurav@gmail.com",
+    "age": 24,
+    "companyId": "1"
+  }
+]
   
-  ]
 }
