@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "json:server": "json-server --watch db.json"
+    "start": "json-server --watch db.json --port 3001"
   },
+  "engines": {"node": "^10.14.1"},
   "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
   }
+ 
 }
